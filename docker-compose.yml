@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  server:
+    build: .
+    restart: always
+    tty:  true
+    volumes:
+      - "./src:/workdir/src"
+    
